@@ -49,6 +49,6 @@ execute as @e[tag=gt_init_wither] run data modify entity @s Tags set value [gt_w
 
 execute as @e[team=gt_fire_team,nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{Tags:[gt_wither_fire]}}}] at @s run playsound minecraft:entity.zombie.attack_wooden_door player @s
 execute as @e[team=gt_fire_team,nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{Tags:[gt_creeper_fire]}}}] at @s run playsound minecraft:entity.blaze.shoot player @s
-execute as @e[team=gt_fire_team,nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{Tags:[gt_pig_fire]}}}] at @s run playsound minecraft:entity.arrow.shoot player @s
+execute as @e[team=gt_fire_team,nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{Tags:[gt_pig_fire]}}}] at @s run playsound minecraft:block.end_portal_frame.fill player @s
 
 execute as @e[team=gt_fire_team] run team leave @s

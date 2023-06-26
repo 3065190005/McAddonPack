@@ -1,0 +1,47 @@
+{
+
+    "type": "crafting_shaped",
+    
+    "pattern": [
+        
+        " 12",
+        
+        "   ",
+        
+        "   "
+    
+    ],
+    
+    "key":{
+    
+        "1": {
+        
+            "item": "minecraft:carrot_on_a_stick"
+        
+        },
+        
+        "2": {
+        
+            "item": "minecraft:nether_star"
+        
+        }
+    
+    },
+    
+    "result": {
+    
+    "item": "minecraft:carrot_on_a_stick",
+    
+    "count": 1,
+    "nbt":{
+        "Tags":["gt_wither_fire"],
+        "CustomModelData":531,
+        "display":{
+            "Name":"[{\"text\":\"凋零穿甲枪\"}]",
+            "Lore":["{\"text\":\"爆炸范围：小\"}","{\"text\":\"装填耗时：6\"}","{\"text\":\"消耗弹药：3\"}"]
+        }
+    }
+
+    }
+    
+}

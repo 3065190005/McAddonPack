@@ -1,0 +1,47 @@
+{
+
+    "type": "crafting_shaped",
+    
+    "pattern": [
+        
+        "111",
+        
+        "121",
+        
+        "111"
+    
+    ],
+    
+    "key":{
+    
+        "2": {
+        
+            "item": "minecraft:stone"
+        
+        },
+        
+        "1": {
+        
+            "item": "minecraft:coal"
+        
+        }
+    
+    },
+    
+    "result": {
+    
+    "item": "minecraft:gunpowder",
+    
+    "count": 16,
+    "nbt":{
+        "Tags":["gt_ammo"],
+        "CustomModelData":530,
+        "display":{
+            "Name":"[{\"text\":\"弹药\"}]",
+            "Lore":["{\"text\":\"统一消耗品\"}"]
+        }
+    }
+
+    }
+    
+}

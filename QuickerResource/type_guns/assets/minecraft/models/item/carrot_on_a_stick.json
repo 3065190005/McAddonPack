@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/carrot_on_a_stick"
+    },
+	"overrides":[
+        {"predicate":{"custom_model_data":530},"model":"item/gt_creeper_gun"},
+        {"predicate":{"custom_model_data":531},"model":"item/gt_wither_gun"},
+        {"predicate":{"custom_model_data":532},"model":"item/gt_pig_gun"}
+    ]
+}

@@ -1,0 +1,47 @@
+{
+
+    "type": "crafting_shaped",
+    
+    "pattern": [
+        
+        " 12",
+        
+        "   ",
+        
+        "   "
+    
+    ],
+    
+    "key":{
+    
+        "1": {
+        
+            "item": "minecraft:carrot_on_a_stick"
+        
+        },
+        
+        "2": {
+        
+            "item": "minecraft:creeper_head"
+        
+        }
+    
+    },
+    
+    "result": {
+    
+    "item": "minecraft:carrot_on_a_stick",
+    
+    "count": 1,
+    "nbt":{
+        "Tags":["gt_creeper_fire"],
+        "CustomModelData":530,
+        "display":{
+            "Name":"[{\"text\":\"苦力怕大炮\"}]",
+            "Lore":["{\"text\":\"爆炸范围：大\"}","{\"text\":\"装填耗时：30\"}","{\"text\":\"消耗弹药：8\"}"]
+        }
+    }
+
+    }
+    
+}

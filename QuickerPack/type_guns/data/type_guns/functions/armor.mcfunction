@@ -3,7 +3,7 @@ execute as @a[scores={gt_health=11..},nbt={Inventory:[{Slot:103b,id:"minecraft:n
 
 # 高级头 低血版
 execute as @a[scores={gt_health=..10},nbt={Inventory:[{Slot:103b,id:"minecraft:netherite_helmet",Count:1b,tag:{Tags:[gt_helmet]}}]}] at @s run effect give @s minecraft:night_vision 12 1 true
-execute as @a[scores={gt_health=..10},nbt={Inventory:[{Slot:103b,id:"minecraft:netherite_helmet",Count:1b,tag:{Tags:[gt_helmet]}}]}] at @s run effect give @a minecraft:regeneration 3 1 true
+execute as @a[scores={gt_health=..10},nbt={Inventory:[{Slot:103b,id:"minecraft:netherite_helmet",Count:1b,tag:{Tags:[gt_helmet]}}]}] at @s run effect give @s minecraft:regeneration 3 1 true
 execute as @a[scores={gt_health=..10},nbt={Inventory:[{Slot:103b,id:"minecraft:netherite_helmet",Count:1b,tag:{Tags:[gt_helmet]}}]}] at @s run effect give @e[distance=..20,type=!player,tag=,team=] minecraft:glowing 3 0 true
 
 

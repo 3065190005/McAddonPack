@@ -28,4 +28,8 @@ scoreboard objectives add gt_pig_cd dummy
 # 子弹剩余数量
 scoreboard objectives add gt_ammo_count dummy
 
+# 添加装备相关计分板
+
+scoreboard objectives add gt_health health
+
 say type_guns init success

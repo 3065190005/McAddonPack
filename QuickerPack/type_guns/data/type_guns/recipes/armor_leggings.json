@@ -1,0 +1,43 @@
+{
+
+    "type": "crafting_shaped",
+    
+    "pattern": [
+        
+        "333",
+        
+        "121",
+        
+        "333"
+    
+    ],
+    
+    "key":{
+    
+        "2": {
+        
+            "item": "minecraft:diamond_leggings"
+        
+        },
+        
+        "1": {
+        
+            "item": "minecraft:nether_star"
+        
+        },
+        
+        "3": {
+        
+            "item": "minecraft:diamond"
+        
+        }
+    
+    },
+    
+    "result": {
+        "item": "minecraft:netherite_leggings",
+        "count": 1,
+        "nbt":"{CustomModelData:530,display:{Name:\"[{\\\"text\\\":\\\"高级护腿\\\"}]\",Lore:[\"{\\\"text\\\":\\\"普通模式：\\\"}\",\"{\\\"text\\\":\\\" - 速度 I\\\"}\",\"{\\\"text\\\":\\\"增强效果：\\\"}\",\"{\\\"text\\\":\\\" - 速度 II\\\"}\",\"{\\\"text\\\":\\\" - 抗性 I\\\"}\",\"{\\\"text\\\":\\\"特殊效果：\\\"}\",\"{\\\"text\\\":\\\"【对周围20格以内生物施加 缓慢II 和 虚弱I 持续3秒】\\\"}\"]},Tags:[gt_leggings],Unbreakable:1,AttributeModifiers:[{AttributeName:\"generic.max_health\",Operation:0,Amount:5.0,Slot:\"legs\",Name:\"health\",UUID:[I;9,10,11,12]},{AttributeName:\"generic.knockback_resistance\",Operation:0,Amount:0.2,Slot:\"legs\",Name:\"knockback\",UUID:[I;9,10,11,12]},{AttributeName:\"generic.armor\",Operation:0,Amount:6.0,Slot:\"legs\",Name:\"Armor\",UUID:[I;9,10,11,12]},{AttributeName:\"generic.armor_toughness\",Operation:0,Amount:3.5,Slot:\"legs\",Name:\"Toughness\",UUID:[I;9,10,11,12]}]}"
+    }
+    
+}

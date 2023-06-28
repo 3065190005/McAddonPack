@@ -1,0 +1,6 @@
+{
+    "parent": "item/mob_bucket",
+    "textures": {
+        "0": "item/ft_bot"
+    }
+}

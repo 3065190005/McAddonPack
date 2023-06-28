@@ -1,0 +1,43 @@
+{
+
+    "type": "crafting_shaped",
+    
+    "pattern": [
+        
+        "333",
+        
+        "121",
+        
+        "333"
+    
+    ],
+    
+    "key":{
+    
+        "2": {
+        
+            "item": "minecraft:diamond_boots"
+        
+        },
+        
+        "1": {
+        
+            "item": "minecraft:nether_star"
+        
+        },
+        
+        "3": {
+        
+            "item": "minecraft:diamond"
+        
+        }
+    
+    },
+    
+    "result": {
+        "item": "minecraft:netherite_boots",
+        "count": 1,
+        "nbt":"{CustomModelData:530,display:{Name:\"[{\\\"text\\\":\\\"高级战靴\\\"}]\",Lore:[\"{\\\"text\\\":\\\"普通模式：\\\"}\",\"{\\\"text\\\":\\\" - 跳跃提升 II\\\"}\",\"{\\\"text\\\":\\\"增强效果：\\\"}\",\"{\\\"text\\\":\\\" - 跳跃提升 IV\\\"}\",\"{\\\"text\\\":\\\"特殊效果：\\\"}\",\"{\\\"text\\\":\\\"【贴地空中滑行】\\\"}\"]},Tags:[gt_boots],Unbreakable:1,AttributeModifiers:[{AttributeName:\"generic.max_health\",Operation:0,Amount:5.0,Slot:\"feet\",Name:\"health\",UUID:[I;13,14,15,16]},{AttributeName:\"generic.knockback_resistance\",Operation:0,Amount:0.2,Slot:\"feet\",Name:\"knockback\",UUID:[I;13,14,15,16]},{AttributeName:\"generic.armor\",Operation:0,Amount:3.0,Slot:\"feet\",Name:\"Armor\",UUID:[I;13,14,15,16]},{AttributeName:\"generic.armor_toughness\",Operation:0,Amount:3.5,Slot:\"feet\",Name:\"Toughness\",UUID:[I;13,14,15,16]}]}"
+    }
+    
+}

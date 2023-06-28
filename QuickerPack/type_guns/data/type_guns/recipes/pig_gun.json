@@ -35,6 +35,7 @@
     "count": 1,
     "nbt":{
         "Tags":["gt_pig_fire"],
+        "Unbreakable":1,
         "CustomModelData":532,
         "display":{
             "Name":"[{\"text\":\"小猪步枪\"}]",

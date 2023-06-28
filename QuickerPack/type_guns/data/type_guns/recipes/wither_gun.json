@@ -35,6 +35,7 @@
     "count": 1,
     "nbt":{
         "Tags":["gt_wither_fire"],
+        "Unbreakable":1,
         "CustomModelData":531,
         "display":{
             "Name":"[{\"text\":\"凋零穿甲枪\"}]",

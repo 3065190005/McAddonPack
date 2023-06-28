@@ -35,6 +35,7 @@
     "count": 1,
     "nbt":{
         "Tags":["gt_creeper_fire"],
+        "Unbreakable":1,
         "CustomModelData":530,
         "display":{
             "Name":"[{\"text\":\"苦力怕大炮\"}]",

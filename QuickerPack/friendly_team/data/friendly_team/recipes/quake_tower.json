@@ -1,0 +1,42 @@
+{
+
+    "type": "crafting_shaped",
+    
+    "pattern": [
+        
+        "222",
+        
+        "131",
+        
+        "222"
+    
+    ],
+    
+    "key":{
+        "1": {
+        
+            "item": "minecraft:redstone"
+        
+        },
+
+        "2": {
+        
+            "item": "minecraft:obsidian"
+        
+        },
+        
+        "3": {
+        
+            "item": "minecraft:iron_ingot"
+        
+        }
+    
+    },
+    
+    "result": {
+        "item": "minecraft:cat_spawn_egg",
+        "count": 1,
+        "nbt":"{display:{Name:\"[{\\\"text\\\":\\\"地震塔\\\"}]\",Lore:[\"{\\\"text\\\":\\\"生成一个范围群体伤害地震塔\\\"}\",\"{\\\"text\\\":\\\"存在时长:160s\\\"}\",\"{\\\"text\\\":\\\"攻击范围:25\\\"}\",\"{\\\"text\\\":\\\"攻击伤害:6/每个实体\\\"}\",\"{\\\"text\\\":\\\"攻击间隔:175/tick\\\"}\"]},EntityTag:{id:armor_stand,PortalCooldown:3200,ArmorItems:[{},{},{},{id:player_head,Count:1,Damage:0s,tag:{SkullOwner:\"MHF_Present2\"}}],Tags:[ft_quake_type],Invisible:1,Glowing:1,Invulnerable:1,NoGravity:1,Silent:1,Marker:1,NoBasePlate:1,Small:0}}"
+    }
+    
+}

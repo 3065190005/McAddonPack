@@ -1,0 +1,60 @@
+{
+
+    "type": "crafting_shaped",
+    
+    "pattern": [
+        
+        "  1",
+        
+        "234",
+        
+        "224"
+    
+    ],
+    
+    "key":{
+    
+        "1": {
+        
+            "item": "minecraft:stick"
+        
+        },
+        
+        "2": {
+        
+            "item": "minecraft:lapis_lazuli"
+        
+        },
+
+        "3": {
+        
+            "item": "minecraft:redstone_block"
+        
+        },
+
+        "4": {
+        
+            "item": "minecraft:bedrock"
+        
+        }
+    
+    },
+    
+    "result": {
+    
+    "item": "minecraft:carrot_on_a_stick",
+    
+    "count": 1,
+    "nbt":{
+        "Tags":["ft_clear_t"],
+        "Unbreakable":1,
+        "CustomModelData":633,
+        "display":{
+            "Name":"[{\"text\":\"清除器\"}]",
+            "Lore":["{\"text\":\"右键清除所有防御塔\"}"]
+        }
+    }
+
+    }
+    
+}

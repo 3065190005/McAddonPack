@@ -16,4 +16,20 @@ execute as @e[tag=ft_mob_tag,team=ft_team] run data modify entity @s InWaterTime
 # 旗帜循环
 function friendly_team:point
 
+# 单体防御塔cd增加1
+execute as @e[tag=ft_ender_type,type=minecraft:armor_stand] at @s if entity @e[tag=,team=,type=!player,distance=..35] run scoreboard players add @s ft_tower_cd 1
+# 防御塔发射子弹
+function friendly_team:ender_tower
+# 防御塔非递归循环
+function friendly_team:ender_bullet
+
+# 群体地震塔cd增加1
+execute as @e[tag=ft_quake_type,type=minecraft:armor_stand] at @s if entity @e[tag=,team=,type=!player,distance=..25] run scoreboard players add @s ft_tower_cd 1
+# 地震塔处理攻击
+function friendly_team:quake_tower
+# 地震塔非递归循环
+function friendly_team:quake_bullet
+
+# 防御塔清除
+function friendly_team:clear_tower
 

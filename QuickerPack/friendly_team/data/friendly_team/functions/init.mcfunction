@@ -8,4 +8,10 @@ scoreboard objectives add ft_uuid2 dummy
 scoreboard objectives add ft_uuid3 dummy
 scoreboard objectives add ft_find_mob dummy
 
+# 旗帜初始化
+scoreboard objectives add ft_mob_point dummy
+scoreboard objectives add ft_player_set minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add ft_point_set minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add ft_cancel_set minecraft.used:minecraft.carrot_on_a_stick
+
 say friendly_team_inited

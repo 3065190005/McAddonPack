@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/carrot_on_a_stick"
+    },
+	"overrides":[
+        {"predicate":{"custom_model_data":630},"model":"item/ft_player_flag"},
+        {"predicate":{"custom_model_data":631},"model":"item/ft_point_flag"},
+        {"predicate":{"custom_model_data":632},"model":"item/ft_cancel_flag"}
+    ]
+}

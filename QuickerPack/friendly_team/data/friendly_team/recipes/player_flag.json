@@ -1,0 +1,54 @@
+{
+
+    "type": "crafting_shaped",
+    
+    "pattern": [
+        
+        "112",
+        
+        "131",
+        
+        "111"
+    
+    ],
+    
+    "key":{
+    
+        "1": {
+        
+            "item": "minecraft:iron_ingot"
+        
+        },
+        
+        "2": {
+        
+            "item": "minecraft:diamond"
+        
+        },
+
+        "3": {
+        
+            "item": "minecraft:lapis_lazuli"
+        
+        }
+    
+    },
+    
+    "result": {
+    
+    "item": "minecraft:carrot_on_a_stick",
+    
+    "count": 1,
+    "nbt":{
+        "Tags":["ft_player_flag"],
+        "Unbreakable":1,
+        "CustomModelData":630,
+        "display":{
+            "Name":"[{\"text\":\"跟随控制器\"}]",
+            "Lore":["{\"text\":\"右键转换为跟随模式\"}"]
+        }
+    }
+
+    }
+    
+}

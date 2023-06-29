@@ -1,0 +1,54 @@
+{
+
+    "type": "crafting_shaped",
+    
+    "pattern": [
+        
+        "112",
+        
+        "131",
+        
+        "111"
+    
+    ],
+    
+    "key":{
+    
+        "1": {
+        
+            "item": "minecraft:iron_ingot"
+        
+        },
+        
+        "2": {
+        
+            "item": "minecraft:diamond"
+        
+        },
+
+        "3": {
+        
+            "item": "minecraft:shulker_shell"
+        
+        }
+    
+    },
+    
+    "result": {
+    
+    "item": "minecraft:carrot_on_a_stick",
+    
+    "count": 1,
+    "nbt":{
+        "Tags":["ft_cancel_flag"],
+        "Unbreakable":1,
+        "CustomModelData":632,
+        "display":{
+            "Name":"[{\"text\":\"游走控制器\"}]",
+            "Lore":["{\"text\":\"右键转换为游走模式\"}"]
+        }
+    }
+
+    }
+    
+}

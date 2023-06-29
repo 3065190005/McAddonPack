@@ -1,0 +1,54 @@
+{
+
+    "type": "crafting_shaped",
+    
+    "pattern": [
+        
+        "112",
+        
+        "131",
+        
+        "111"
+    
+    ],
+    
+    "key":{
+    
+        "1": {
+        
+            "item": "minecraft:iron_ingot"
+        
+        },
+        
+        "2": {
+        
+            "item": "minecraft:diamond"
+        
+        },
+
+        "3": {
+        
+            "item": "minecraft:nether_brick"
+        
+        }
+    
+    },
+    
+    "result": {
+    
+    "item": "minecraft:carrot_on_a_stick",
+    
+    "count": 1,
+    "nbt":{
+        "Tags":["ft_point_flag"],
+        "Unbreakable":1,
+        "CustomModelData":631,
+        "display":{
+            "Name":"[{\"text\":\"据守控制器\"}]",
+            "Lore":["{\"text\":\"右键转换为据守模式\"}"]
+        }
+    }
+
+    }
+    
+}

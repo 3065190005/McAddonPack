@@ -13,3 +13,7 @@ execute as @e[tag=ft_mob_tag,team=ft_team] run data modify entity @s DrownedConv
 execute as @e[tag=ft_mob_tag,team=ft_team] run data modify entity @s InWaterTime set value -1
 
 
+# 旗帜循环
+function friendly_team:point
+
+

@@ -1,0 +1,36 @@
+{
+
+    "type": "crafting_shaped",
+    
+    "pattern": [
+        
+        "333",
+        
+        "313",
+        
+        "333"
+    
+    ],
+    
+    "key":{
+        "1": {
+        
+            "item": "minecraft:diamond"
+        
+        },
+        
+        "3": {
+        
+            "item": "minecraft:rotten_flesh"
+        
+        }
+    
+    },
+    
+    "result": {
+        "item": "minecraft:pig_spawn_egg",
+        "count": 1,
+        "nbt":"{display:{Name:\"[{\\\"text\\\":\\\"Bot生成蛋\\\"}]\",Lore:[\"{\\\"text\\\":\\\"生成一个近战友善生物\\\"},{\\\"text\\\":\\\"清理区域:15\\\"}\"]},EntityTag:{id:zombie,HandItems:[{id:\"minecraft:iron_axe\",Count:1b,Damage:0s},{id:\"minecraft:iron_sword\",Count:1b,Damage:0s}],HandDropChances:[0.0f,0.0f],ArmorItems:[{id:\"minecraft:iron_boots\",Count:1b,Damage:0s},{id:\"minecraft:iron_leggings\",Count:1b,Damage:0s},{id:\"minecraft:iron_chestplate\",Count:1b,Damage:0s},{id:\"minecraft:player_head\",Count:1b,Damage:0s}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],Tags:[ft_mob_tag],CustomName:\"[{\\\"text\\\":\\\"Bot\\\"}]\",CustomNameVisible:1b,Silent:1b,IsBaby:0,CanBreakDoors:0,Attributes:[{Name:\"generic.max_health\",Base:60f},{Name:\"generic.follow_range\",Base:10f},{Name:\"generic.knockback_resistance\",Base:1f},{Name:\"generic.movement_speed\",Base:0.35f}],Health:60f,PersistenceRequired:1}}"
+    }
+    
+}
